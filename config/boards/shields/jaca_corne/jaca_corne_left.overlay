@@ -5,7 +5,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-#include "tbkmini.dtsi"
+#include "jaca_corne.dtsi"
 
 &kscan0 {
 	col-gpios
