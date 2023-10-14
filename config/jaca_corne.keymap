@@ -106,10 +106,10 @@
             //                                   '--------+----------+----------'       '---------+----------+---------'
 
             bindings = <
-&kp LG(LS(N4))  &trans  &kp PAGE_UP     &kp UP_ARROW    &kp PAGE_DOWN       &kp HOME                       &kp CARET           &kp PAGE_UP          &kp UP_ARROW    &kp PAGE_DOWN    &kp HOME  &kp LG(LS(N4))
-&trans          &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW     &kp END                        &kp MINUS           &kp LEFT_ARROW       &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END   &trans
-&out OUT_TOG    &trans  &trans          &trans          &kp LC(LEFT_ARROW)  &kp LC(RIGHT_ARROW)            &kp LC(LEFT_ARROW)  &kp LC(RIGHT_ARROW)  &trans          &trans           &trans    &out OUT_TOG
-                        &kp LGUI        &mo ADJUST      &trans                                     &trans  &trans              &trans
+&kp ESCAPE    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5            &kp K_SLEEP  &none  &none             &kp MINUS          &kp EQUAL      &kp BACKSPACE
+&out OUT_USB  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0            &none        &none  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH  &kp LEFT_CONTROL
+&out OUT_BLE  &none         &none         &none         &none         &none                   &none        &none  &none             &none              &kp SQT        &out OUT_TOG
+                            &mo 0         &trans        &trans                        &trans  &trans       &mo 1
             >;
         };
 
